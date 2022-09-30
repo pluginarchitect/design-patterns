@@ -8,7 +8,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title><?php echo $title; ?> | Design Patterns in WordPress</title>
+        <title><?php echo implode(' | ', array_filter([ $title, 'Design Patterns in WordPress'])); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             :root {
