@@ -141,7 +141,7 @@
     <body>
         <div class="container"><?php echo $content; ?></div>
         <footer class="colophon">
-            An open source project by <a href="://pluginarchitect.com">Plugin Architect</a>.
+            An open source project by <a href="https://pluginarchitect.com">Plugin Architect</a>.
         </footer>
     </body>
 </html>
