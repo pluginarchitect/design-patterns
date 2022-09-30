@@ -9,12 +9,9 @@
         "issues": "https://github.com/laravel-zero/laravel-zero/issues",
         "source": "https://github.com/laravel-zero/laravel-zero"
     },
-    "authors": [
-        {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
-        }
-    ],
+    "scripts": {
+        "deploy": "git subtree push --prefix public origin gh-pages"
+    },
     "require": {
         "php": "^7.4|^8.0",
         "laravel-zero/framework": "^8.8",
