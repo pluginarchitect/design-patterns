@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var string $title The title for the page
+ * @var string $content The content for the page
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
